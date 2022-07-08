@@ -1,0 +1,93 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MTProto Proxy/1.0.0": {
+        "dependencies": {
+          "MTProtoProxy": "1.0.0"
+        },
+        "runtime": {
+          "MTProto Proxy.dll": {}
+        }
+      },
+      "MTProtoProxy/1.0.0": {
+        "dependencies": {
+          "PCLCrypto": "2.0.147"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MTProtoProxy.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PCLCrypto/2.0.147": {
+        "dependencies": {
+          "PInvoke.NCrypt": "0.3.2",
+          "Validation": "2.2.8"
+        },
+        "runtime": {
+          "lib/net45/PCLCrypto.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.147.15665"
+          }
+        }
+      },
+      "PInvoke.NCrypt/0.3.2": {
+        "runtime": {
+          "lib/net40/PInvoke.NCrypt.dll": {
+            "assemblyVersion": "0.3.0.0",
+            "fileVersion": "0.3.2.64456"
+          }
+        }
+      },
+      "Validation/2.2.8": {
+        "runtime": {
+          "lib/dotnet/Validation.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.8.61273"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MTProto Proxy/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MTProtoProxy/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Icq3zTCIvDm/yAhs+mL3f+VzNT/IBjOBEawW/OX61hitMpzsbfuC/VOFAVN+UeUAI/0cW0um9CrKMdLoPmVN+w==",
+      "path": "mtprotoproxy/1.0.0",
+      "hashPath": "mtprotoproxy.1.0.0.nupkg.sha512"
+    },
+    "PCLCrypto/2.0.147": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OFNDBjhP+qPukqB8PiGbWDo70gHsEzSKupL47JisjYFQaGwlPPCnN8ah59QCzIvsg9IUr2AecGKXF3ONpyFL9g==",
+      "path": "pclcrypto/2.0.147",
+      "hashPath": "pclcrypto.2.0.147.nupkg.sha512"
+    },
+    "PInvoke.NCrypt/0.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s7SIBXlr3qolZaM5mGEXG2sKBY4yFVHTWBlwhRC93le08Aj+n/IaFVnB9LBFv6mpCCivXdzad+9EX6HHds4PyQ==",
+      "path": "pinvoke.ncrypt/0.3.2",
+      "hashPath": "pinvoke.ncrypt.0.3.2.nupkg.sha512"
+    },
+    "Validation/2.2.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DMNc7JhPlgRwnR+NNb+ldoluObL+RBw96aMoiZae/Looa4vgaAnIysmle/bV2OKqDNW9oUBDckPyfa2+sX6JdA==",
+      "path": "validation/2.2.8",
+      "hashPath": "validation.2.2.8.nupkg.sha512"
+    }
+  }
+}
