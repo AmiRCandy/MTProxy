@@ -1,2 +1,2 @@
 # MTProxy
-App MTProto Proxy Createor With Custom Secret and Port !
+A simple application for create MTProxy server on windows servers !
